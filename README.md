@@ -59,3 +59,7 @@ testing some more
 nil
 boot.user=> Bye for now!
 ```
+
+### Still not working?
+
+Consider opening an issue with questions or feedback.
