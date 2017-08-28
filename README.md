@@ -24,6 +24,10 @@ get an updated jar into my Maven repository. Boot will pick up the new
 jar and add it to the classpath. The only thing users are required to
 do is reloading namespaces.
 
+> The communication mechanism for updating a checkout is installing a new
+> jar into your Maven repository. The location of your projects code or
+> the code of your checkout dependency is therefore not important.
+
 Once you've done that the new code should be loaded. Of course the
 reloading of namespaces can be simplified with something like
 `clojure.tools.namepsace`.
